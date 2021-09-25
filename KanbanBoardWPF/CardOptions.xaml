@@ -1,0 +1,16 @@
+﻿<Window x:Class="KanbanBoardWPF.CardOptions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KanbanBoardWPF"
+        mc:Ignorable="d"
+        Title="Card Options" Height="137.925" Width="221.827" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Topmost="True" Background="LightCyan"   >
+    <Grid>
+        <Label Content="Was möchten Sie tun?" HorizontalAlignment="Center" />
+        <Button x:Name="status" Content="Status ändern" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Width="90" Click="status_Click" />
+        <Button x:Name="edit" Content="Bearbeiten" HorizontalAlignment="Center"  Margin="0,52,0,0" VerticalAlignment="Top" Width="90" Click="edit_Click" />
+        <Button x:Name="delete" Content="Löschen" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top" Width="90" Click="delete_Click" />
+
+    </Grid>
+</Window>
